@@ -59,4 +59,5 @@ format = 1
 
 [node name="Camera" parent="." instance=ExtResource( 5 )]
 process_mode = 0
+
 [connection signal="body_entered" from="Exit_to_3" to="Exit_to_3" method="_on_Exit_body_entered"]
